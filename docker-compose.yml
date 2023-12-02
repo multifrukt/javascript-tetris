@@ -1,5 +1,7 @@
+version: '3.8'
 
-app:
-  build: .
-  ports:
-    - "80:80"
+services:
+  tetris:
+    build: .
+    ports:
+      - "80:80"
